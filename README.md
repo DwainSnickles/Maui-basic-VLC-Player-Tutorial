@@ -4,6 +4,9 @@
 
 A cross-platform .NET MAUI app using **LibVLCSharp** to play MP4 and HLS video streams. Built with **Visual Studio 2022** and **.NET 8**, this project demonstrates how to integrate VLC’s powerful media engine into a modern mobile/desktop UI.
 
+Please note this is very basic and only a way for you to get started i spenk weeks trying to get this far Maui is still very experimental in my opinon. I thought it would be nice to share what I learned here.
+I plann on continuing with controls and things and cossider this to be part 1. Stay tuned for Part 2.
+
 ---
 
 https://github.com/user-attachments/assets/bb8e35d7-10a0-4566-bb94-99f899287758
@@ -89,8 +92,5 @@ Built by Dwain — strategic builder, infrastructure optimizer, and IPTV-native 
 📄 License
 MIT License (or your preferred license)
 
-Code
+Code Download from code button.
 
----
-
-Let me know if you want a matching thumbnail, QR code, or a second README for a st
