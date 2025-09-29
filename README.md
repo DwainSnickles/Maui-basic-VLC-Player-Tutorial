@@ -6,6 +6,10 @@ A cross-platform .NET MAUI app using **LibVLCSharp** to play MP4 and HLS video s
 
 ---
 
+https://github.com/user-attachments/assets/bb8e35d7-10a0-4566-bb94-99f899287758
+
+
+
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
