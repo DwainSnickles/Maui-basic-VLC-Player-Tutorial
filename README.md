@@ -80,7 +80,8 @@ Remote input handling
 Auto-hide controls
 
 📷 Screenshots
-Coming soon — add screenshots of playback and control bar in action.
+<img width="1202" height="931" alt="video" src="https://github.com/user-attachments/assets/1aefe6a9-45fb-41c2-b272-41df2bd36c6d" />
+Screenshot of playback and control bar in action.
 
 🧑‍💻 Author
 Built by Dwain — strategic builder, infrastructure optimizer, and IPTV-native UX architect.
