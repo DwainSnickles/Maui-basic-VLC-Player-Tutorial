@@ -1,1 +1,91 @@
 # Maui-basic-VLC-Player-Tutorial
+
+# 🎬 MauiVLCPlayer
+
+A cross-platform .NET MAUI app using **LibVLCSharp** to play MP4 and HLS video streams. Built with **Visual Studio 2022** and **.NET 8**, this project demonstrates how to integrate VLC’s powerful media engine into a modern mobile/desktop UI.
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+- Visual Studio 2022 (latest version)
+- .NET 8 SDK
+- Android emulator or physical device (for testing)
+
+---
+
+### 📦 NuGet Packages
+
+Install the following packages via NuGet:
+
+```bash
+LibVLCSharp
+LibVLCSharp.MAUI
+VideoLAN.LibVLC.Android
+VideoLAN.LibVLC.Windows
+VideoLAN.LibVLC.iOS
+These packages provide cross-platform bindings and native support for VLC playback.
+
+🧱 UI Layout
+The app uses a Grid layout with:
+
+Row 0: Control bar with volume slider, mute toggle, fullscreen toggle, and titlebar toggle
+
+Row 1: VideoView that fills remaining space
+
+xml
+<Grid.RowDefinitions>
+  <RowDefinition Height="Auto" />
+  <RowDefinition Height="*" />
+</Grid.RowDefinitions>
+
+🧠 Code Highlights 
+MauiProgram.cs
+csharp
+builder.ConfigureMauiHandlers(handlers =>
+{
+    handlers.AddHandler(typeof(VideoView), typeof(VideoViewHandler));
+});
+Core.Initialize();
+MainPage.xaml.cs
+csharp
+_libVLC = new LibVLC();
+_mediaPlayer = new MediaPlayer(_libVLC);
+videoView.MediaPlayer = _mediaPlayer;
+
+_mediaPlayer.Play(new Media(_libVLC,
+    "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    FromType.FromLocation));
+Includes volume control, mute toggle, and fullscreen logic (Android-specific).
+
+📺 Demo Stream
+The app plays a public HLS stream:
+
+Code
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+You can swap this with any .mp4 or .m3u8 URL.
+
+🧩 Next Steps
+Add stream switching
+
+Favorites manager
+
+Remote input handling
+
+Auto-hide controls
+
+📷 Screenshots
+Coming soon — add screenshots of playback and control bar in action.
+
+🧑‍💻 Author
+Built by Dwain — strategic builder, infrastructure optimizer, and IPTV-native UX architect.
+
+📄 License
+MIT License (or your preferred license)
+
+Code
+
+---
+
+Let me know if you want a matching thumbnail, QR code, or a second README for a st
