@@ -1,6 +1,6 @@
 # Maui-basic-VLC-Player-Tutorial 1
 
-# 🎬 MauiVLCPlayer
+# 🎬 MauiVLCPlayer 1
 
 A cross-platform .NET MAUI app using **LibVLCSharp** to play MP4 and HLS video streams. Built with **Visual Studio 2022** and **.NET 8**, this project demonstrates how to integrate VLC’s powerful media engine into a modern mobile/desktop UI.
 
